@@ -1,0 +1,599 @@
+﻿body,
+ul,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+input,
+figure,
+figcaption,
+legend,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0
+}
+
+ul,
+li,
+ol {
+    list-style: none
+}
+
+img,
+fieldset {
+    border: 0
+}
+
+img {
+    display: block
+}
+
+a {
+    text-decoration: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100
+}
+
+body,
+html {
+    font-family: "微软雅黑";
+    position: relative;
+    height: 100%
+}
+
+header {
+    width: 1200px;
+    height: 60px;
+    margin: 12px auto 14px
+}
+
+header a {
+    float: left
+}
+
+header a img {
+    width: 282px;
+    height: 63px;
+    margin-top: 7px
+}
+
+header .jianyi {
+    float: right;
+    margin-top: 34px
+}
+
+header .jianyi span {
+    float: left;
+    color: #787878
+}
+
+header .jianyi a {
+    color: #787878;
+    font-size: 12px
+}
+
+header .jianyi a:hover {
+    text-decoration: underline
+}
+
+main {
+    width: 100%;
+    height: 590px;
+    background: url(../img/get_login_ad.php) no-repeat center center
+}
+
+main .main-warp {
+    width: 1200px;
+    height: 590px;
+    margin: 0 auto
+}
+
+main .main-warp .tiaozhuan {
+    width: 655px;
+    height: 415px;
+    background: red;
+    margin-top: 90px;
+    margin-left: 15px;
+    float: left;
+    opacity: 0
+}
+
+main .main-warp .denglu {
+    width: 362px;
+    height: 465px;
+    float: right;
+    margin-top: 90px;
+    border: 1px solid #eef2f4
+}
+
+main .main-warp .denglu .tishi {
+    width: 362px;
+    height: 26px;
+    background: #fef7f5;
+    border: 1px solid #fedbd1
+}
+
+main .main-warp .denglu .tishi i {
+    float: left;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 6px;
+    margin-left: 2px
+}
+
+main .main-warp .denglu .tishi .wenxints {
+    width: 346px;
+    height: 24px;
+    float: left;
+    margin-top: 1px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #6e6e6e
+}
+
+main .main-warp .denglu .tishi .wenxints a {
+    color: #1a66b3
+}
+
+main .main-warp .denglu .tishi .wenxints a:hover {
+    text-decoration: underline
+}
+
+main .main-warp .denglu .erweima {
+    width: 55px;
+    height: 55px;
+    background: url(../img/scan_icon.png);
+    position: absolute;
+    float: right;
+    right: 159px
+}
+
+main .main-warp .denglu .smtishi {
+    width: 121px;
+    height: 28px;
+    border: 1px solid #fedbd1;
+    background-color: #fef7f5;
+    font-size: 12px;
+    color: #ff572a;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 175px;
+    margin-top: 10px;
+    position: absolute
+}
+
+main .main-warp .denglu .smtishi .smtu {
+    float: left;
+    line-height: 28px;
+    margin: 6px 5px 0 5px
+}
+
+main .main-warp .denglu .smtishi .smanquan {
+    float: left
+}
+
+main .main-warp .denglu .smtishi .jiantou {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: -12px;
+    top: 6px;
+    float: left
+}
+
+main .main-warp .denglu .anquan {
+    width: 311px;
+    height: 425px;
+    margin: 2px auto;
+    padding: 15px 25px 15px 15px
+}
+
+main .main-warp .denglu .anquan .mima {
+    width: 311px;
+    height: 24px;
+    font-size: 18px;
+    color: #3c3c3c;
+    margin-top: 5px
+}
+
+main .main-warp .denglu .anquan .login_uname {
+    width: 318px;
+    height: 38px;
+    border: 1px solid #eef2f4;
+    color: #b0b0b0;
+    margin-top: 20px
+}
+
+main .main-warp .denglu .anquan .login_uname span {
+    width: 30px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 600;
+    margin-left: 10px;
+    float: left
+}
+
+main .main-warp .denglu .anquan .login_uname input {
+    width: 270px;
+    height: 34px;
+    float: left;
+    border: none;
+    margin-top: 2px;
+    outline: none
+}
+
+main .main-warp .denglu .anquan .login_password {
+    width: 318px;
+    height: 38px;
+    border: 1px solid #eef2f4;
+    color: #b0b0b0
+}
+
+main .main-warp .denglu .anquan .login_password span {
+    width: 30px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 600;
+    margin-left: 10px;
+    float: left
+}
+
+main .main-warp .denglu .anquan .login_password input {
+    width: 270px;
+    height: 34px;
+    float: left;
+    border: none;
+    margin-top: 2px;
+    outline: none
+}
+
+main .main-warp .denglu .anquan .zhangmi {
+    width: 311px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #6e6e6e;
+    opacity: 0
+}
+
+main .main-warp .denglu .anquan .huantu {
+    width: 312px;
+    height: 100px
+}
+
+main .main-warp .denglu .anquan .huantu .huanzu {
+    width: 310px;
+    height: 16px;
+    font-size: 14px
+}
+
+main .main-warp .denglu .anquan .huantu .huanzu p {
+    float: left
+}
+
+main .main-warp .denglu .anquan .huantu .huanzu a {
+    float: right
+}
+
+main .main-warp .denglu .anquan .huantu .xuantu1 {
+    width: 76px;
+    height: 76px;
+    margin: 0 1px;
+    background: url(../img/rotate.jfif) no-repeat;
+    float: left;
+    overflow: hidden
+}
+
+main .main-warp .denglu .anquan .huantu .xuantu2 {
+    width: 76px;
+    height: 76px;
+    margin: 0 1px;
+    background: url(../img/rotate.jfif) no-repeat -76px 0;
+    float: left;
+    overflow: hidden
+}
+
+main .main-warp .denglu .anquan .huantu .xuantu3 {
+    width: 76px;
+    height: 76px;
+    margin: 0 1px;
+    background: url(../img/rotate.jfif) no-repeat -152px 0;
+    float: left;
+    overflow: hidden
+}
+
+main .main-warp .denglu .anquan .huantu .xuantu4 {
+    width: 76px;
+    height: 76px;
+    margin: 0 1px;
+    background: url(../img/rotate.jfif) no-repeat -228px 0;
+    float: left;
+    overflow: hidden
+}
+
+main .main-warp .denglu .anquan .miandeng {
+    width: 310px;
+    height: 34px;
+    font-size: 12px
+}
+
+main .main-warp .denglu .anquan .miandeng span {
+    line-height: 34px;
+    color: #6e6e6e
+}
+
+main .main-warp .denglu .anquan .miandeng a {
+    float: right;
+    line-height: 34px;
+    color: #1a66b3
+}
+
+main .main-warp .denglu .anquan .miandeng a:hover {
+    text-decoration: underline
+}
+
+main .main-warp .denglu .btn_Login {
+    width: 311px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    background: #ff2832;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    display: block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none
+}
+
+main .main-warp .denglu .yinsi {
+    width: 311px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px
+}
+
+main .main-warp .denglu .yinsi .hezuo {
+    width: 96px;
+    height: 16px;
+    float: left;
+    color: #6e6e6e
+}
+
+main .main-warp .denglu .yinsi .zhengce {
+    width: 72px;
+    height: 16px;
+    float: left;
+    margin-left: 50px;
+    color: #1a66b3
+}
+
+main .main-warp .denglu .yinsi .lijizc {
+    width: 48px;
+    height: 24px;
+    float: right;
+    color: #6e6e6e
+}
+
+main .main-warp .denglu .yinsi a:hover {
+    text-decoration: underline
+}
+
+main .main-warp .denglu .gengduo {
+    width: 311px;
+    height: 22px
+}
+
+main .main-warp .denglu .gengduo .qq {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon_20150706.png) no-repeat 0 -260px green;
+    float: left;
+    margin-right: 5px
+}
+
+main .main-warp .denglu .gengduo .qq:hover {
+    background-position: -20px -260px
+}
+
+main .main-warp .denglu .gengduo .weixin {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: url(../img/icon_20150706.png) no-repeat 0 -280px;
+    margin-right: 5px
+}
+
+main .main-warp .denglu .gengduo .weixin:hover {
+    background-position: -20px -280px
+}
+
+main .main-warp .denglu .gengduo .weibo {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: url(../img/icon_20150706.png) no-repeat 0 -300px;
+    margin-right: 5px
+}
+
+main .main-warp .denglu .gengduo .weibo:hover {
+    background-position: -20px -300px
+}
+
+main .main-warp .denglu .gengduo .zhifubao {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: url(../img/icon_20150706.png) no-repeat 0 -320px;
+    margin-right: 5px
+}
+
+main .main-warp .denglu .gengduo .zhifubao:hover {
+    background-position: -20px -320px
+}
+
+main .main-warp .denglu .gengduo .gengduoxuanxiang {
+    width: 40px;
+    height: 16px;
+    font-size: 12px;
+    color: #969696;
+    float: left
+}
+
+main .main-warp .denglu .gengduo .gengduoxuanxiang:hover i {
+    display: block;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    margin-top: -15px
+}
+
+main .main-warp .denglu .gengduo .gengduoxuanxiang:hover+.baidu {
+    display: block
+}
+
+main .main-warp .denglu .gengduo .baidu {
+    width: 190px;
+    height: 26px;
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    position: absolute;
+    top: 627px;
+    left: 1117px;
+    display: none
+}
+
+main .main-warp .denglu .gengduo .baidu li {
+    width: 36px;
+    height: 16px;
+    font-size: 12px;
+    float: left;
+    line-height: 26px;
+    margin-left: 0 10px
+}
+
+main .main-warp .denglu .gengduo .baidu li a {
+    color: #6e6e6e
+}
+
+main .main-warp .denglu .gengduo .baidu li a:hover {
+    text-decoration: underline
+}
+
+footer {
+    width: 100%;
+    height: 338px;
+    color: #8c8c8c;
+    border-top: 1px solid #ebebebda;
+    padding: 17px 0 50px
+}
+
+footer .footer-copy {
+    width: 100%;
+    height: 110px;
+    margin: 0 auto;
+    padding: 17px 0 50px
+}
+
+footer .footer-copy .footer-nav {
+    width: 100%;
+    height: 37px;
+    margin: 0 auto;
+    padding-bottom: 17px;
+    text-align: center;
+    font-size: 12px
+}
+
+footer .footer-copy .footer-nav a {
+    color: #8c8c8c
+}
+
+footer .footer-copy .footer-nav span {
+    color: #8c8c8c;
+    margin: 0 17px 0 19px
+}
+
+footer .footer-copy .footer-nav a:hover {
+    color: #ff2832;
+    text-decoration: underline
+}
+
+footer .footer-copyright {
+    width: 960px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #8c8c8c;
+    text-align: center;
+    line-height: 30px
+}
+
+footer .copyleft {
+    width: 960px;
+    height: 91px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    text-align: center;
+    color: #8c8c8c
+}
+
+footer .copyleft a {
+    color: #8c8c8c
+}
+
+footer .copyleft a:hover {
+    color: #ff2832;
+    text-decoration: underline
+}
+
+footer .copyleft .xukezheng {
+    width: 960px;
+    height: 20px;
+    font-size: 12px
+}
+
+footer .copyleft .xukezheng .sep {
+    margin: 0 17px 0 19px
+}
+
+footer .tu {
+    width: 695px;
+    height: 87px;
+    padding: 10px 0 0 55px;
+    margin: 0 auto
+}
+
+footer .tu img {
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px
+}

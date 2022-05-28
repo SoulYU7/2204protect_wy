@@ -1,0 +1,882 @@
+// body,
+// ul,
+// dl,
+// dt,
+// dd,
+// p,
+// ol,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// form,
+// img,
+// table,
+// fieldset,
+// input,
+// figure,
+// figcaption,
+// legend,
+// figure,
+// figcaption {
+//     margin: 0;
+//     padding: 0;
+// }
+
+// ul,
+// li,
+// ol {
+//     list-style: none;
+// }
+
+// img,
+// fieldset {
+//     border: 0;
+// }
+
+// img {
+//     display: block;
+// }
+
+// a {
+//     text-decoration: none;
+// }
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//     font-weight: 100;
+// }
+
+// body,
+// html {
+//     font-family: "微软雅黑";
+//     /* background-color: #f3f3f3; */
+//     position: relative;
+//     height: 100%;
+
+// }
+
+
+
+// header{
+//     width: 100%;
+//     height: 210px;
+//     /* background: red; */
+// }
+
+// /* <!-- 顶部 --> */
+// #top-warp{
+//     width: 100%;
+//     height: 34px;
+//     background: #f9f9f9;
+// }
+// #top{
+//     width: 1200px;
+//     height: 34px;
+//     background: #f9f9f9;
+//     margin: 0 auto;
+// }
+// .city{
+//     width: 86px;
+//     height: 26px;
+//     color: #646464;
+//     font-size: 12px;
+//     float: left;
+//     text-align: center;
+//     line-height: 34px;
+//     padding-left: 5px;
+//     border: 1px solid #f9f9f9;
+//     z-index: 99;
+//     position: absolute;
+// }
+// em{
+//     display: block;
+//     float :right;
+//     margin-right: 10px;
+//     // border: 1px solid #000; 
+//     // height: 26px; 
+// }
+// .city:hover{
+//     background: #fff;
+//     border:1px solid #e6e6e6;
+//     border-bottom: none;
+// }
+// .city:hover em{
+//     transform:rotate(180deg);
+//     -webkit-transform:rotate(180deg);
+//     -moz-transform:rotate(180deg);
+//     -ms-transform:rotate(180deg);
+//     -o-transform:rotate(180deg);
+// }
+// .cityall{
+//     width: 298px;
+//     height: 190px;
+//     border:1px solid #e6e6e6;
+//     background: #fff;
+//     float: left;
+//     position:absolute;
+//     /* margin-left: -5px; */
+//     margin-top: 26px;
+//     display: none;
+//     padding-top: 10px;
+//     /* border-top: none; */
+// }
+// .city-warp:hover .cityall{
+//     display: block;
+//     background: #fff;
+// }
+// .cityall li{
+//     width: 48px;
+//     height: 26px;
+//     padding-left:10px ;
+//     /* border: 1px solid #000; */
+//     float: left;
+//     line-height: 26px;
+//     text-align: center;
+// }
+// .cityall li a{
+//     font-size: 12px;
+//     color: #646464;
+// }
+// .cityall li a:hover {
+//     color: #ff2832;
+// }
+
+
+// .top-nav{
+//     width: 558px;
+//     height: 28px;
+//     /* background: red; */
+//     float: right;
+// }
+// .top-nav li{
+//     float: left;
+//     border-left:1px solid #ddd ;
+//     border-top:1px solid #f9f9f9 ;
+//     padding-left: 5px;
+//     margin-top: 5px;
+
+// }
+// .top-nav li a{
+//     font-size: 12px;
+//     text-align: center;
+//     line-height: px;
+//     color: #646464;
+// }
+// .top-nav li a:hover{
+//     color: #ff2832;
+// }
+// .wddd{
+//     width: 83px;
+//     height: 21px;
+// }
+// .wddd-one{
+//     width: 87.5px;
+//     height: 189px;
+//     background: #fff;
+//     /* border: none; */
+//     margin-left: -6px;
+//     /* margin-top: -21px; */
+//     display: none;
+//     border: 1px solid #e6e6e6;
+//     /* z-index: 99; */
+//     position: absolute;
+// }
+// .wddd-one li{
+//     width: 82px;
+//     height: 22px;
+//     /* border: 1px solid #000000; */
+//     /* background: red; */
+//     border: none;
+// }
+// .wddd:hover{
+//     background: #fff;
+//     z-index: 99;
+//     border-left: 1px solid #e6e6e6;
+//     border-top: 1px solid #e6e6e6;
+// }
+// .wddd:hover .wddd-one{
+//     display: block;
+//     border-top:none ;
+// }
+// .wddd:hover .wddd-one a{
+//     color: #646464;
+// }
+// .wddd-one li:hover{
+//     background: #ddd;
+// }
+// .wddd:hover a{
+//     color: #ff2832;
+// }
+// .wddd:hover em{
+//     transform: rotate(180deg);
+//     -webkit-transform: rotate(180deg);
+//     -moz-transform: rotate(180deg);
+//     -ms-transform: rotate(180deg);
+//     -o-transform: rotate(180deg);
+// }
+
+// .lingwu{
+//     width: 74px;
+//     height: 21px;
+// }
+// .lingwu-one{
+//     width: 78.5px;
+//     height: 110px;
+//     background: #fff;
+//     /* border: none; */
+//     margin-left: -6px;
+//     /* margin-top: -21px; */
+//     display: none;
+//     border: 1px solid #e6e6e6;
+//     /* z-index: 99; */
+//     position: absolute;
+// }
+// .lingwu-one li{
+//     width: 74.5px;
+//     height: 22px;
+//     /* border: 1px solid #000000; */
+//     /* background: red; */
+//     border: none;
+// }
+// .lingwu:hover{
+//     background: #fff;
+//     z-index: 99;
+//     border-left: 1px solid #e6e6e6;
+//     border-top: 1px solid #e6e6e6;
+// }
+// .lingwu:hover .lingwu-one{
+//     display: block;
+//     border-top:none ;
+// }
+// .lingwu:hover .lingwu-one a{
+//     color: #646464;
+// }
+// .lingwu-one li:hover{
+//     background: #ddd;
+// }
+// .lingwu:hover a{
+//     color: #ff2832;
+// }
+// .lingwu:hover em{
+//     transform: rotate(180deg);
+//     -webkit-transform: rotate(180deg);
+//     -moz-transform: rotate(180deg);
+//     -ms-transform: rotate(180deg);
+//     -o-transform: rotate(180deg);
+// }
+
+// .qycg{
+//     width: 79px;
+//     height: 21px;
+// }
+// .qycg-one{
+//     width: 84px;
+//     height: 163px;
+//     background: #fff;
+//     /* border: none; */
+//     margin-left: -6px;
+//     /* margin-top: -21px; */
+//     display: none;
+//     border: 1px solid #e6e6e6;
+//     /* z-index: 99; */
+//     position: absolute;
+// }
+// .qycg-one li{
+//     width: 79px;
+//     height: 22px;
+//     /* border: 1px solid #000000; */
+//     /* background: red; */
+//     border: none;
+// }
+// .qycg:hover{
+//     background: #fff;
+//     z-index: 99;
+//     border-left: 1px solid #e6e6e6;
+//     border-top: 1px solid #e6e6e6;
+// }
+// .qycg:hover .qycg-one{
+//     display: block;
+//     border-top:none ;
+// }
+// .qycg:hover .qycg-one a{
+//     color: #646464;
+// }
+// .qycg-one li:hover{
+//     background: #ddd;
+// }
+// .qycg:hover a{
+//     color: #ff2832;
+// }
+// .qycg:hover em{
+//     transform: rotate(180deg);
+//     -webkit-transform: rotate(180deg);
+//     -moz-transform: rotate(180deg);
+//     -ms-transform: rotate(180deg);
+//     -o-transform: rotate(180deg);
+// }
+
+
+// .khfw{
+//     width: 79px;
+//     height: 21px;
+// }
+// .khfw-one{
+//     width: 84px;
+//     height: 140px;
+//     background: #fff;
+//     /* border: none; */
+//     margin-left: -6px;
+//     /* margin-top: -21px; */
+//     display: none;
+//     border: 1px solid #e6e6e6;
+//     /* z-index: 99; */
+//     position: absolute;
+// }
+// .khfw-one li{
+//     width: 79px;
+//     height: 22px;
+//     /* border: 1px solid #000000; */
+//     /* background: red; */
+//     border: none;
+// }
+// .khfw:hover{
+//     background: #fff;
+//     z-index: 99;
+//     border-left: 1px solid #e6e6e6;
+//     border-top: 1px solid #e6e6e6;
+// }
+// .khfw:hover .khfw-one{
+//     display: block;
+//     border-top:none ;
+// }
+// .khfw:hover .khfw-one a{
+//     color: #646464;
+// }
+// .khfw-one li:hover{
+//     background: #ddd;
+// }
+// .khfw:hover a{
+//     color: #ff2832;
+// }
+// .khfw:hover em{
+//     transform: rotate(180deg);
+//     -webkit-transform: rotate(180deg);
+//     -moz-transform: rotate(180deg);
+//     -ms-transform: rotate(180deg);
+//     -o-transform: rotate(180deg);
+// }
+
+
+// .niname{
+//     width: 189px;
+//     height: 29px;
+//     float: right;
+//     font-size: 12px;
+//     color: #404040;
+//     /* border:1px solid #000; */
+//     text-align: center;
+//     line-height: 35px;
+//     margin-top:1.5px ;
+// }
+// .huiyuan{
+//     color: #646464; 
+// }
+// .huiyuan:hover{
+//     color: #ff2832;
+// }
+
+
+
+
+// /* <!-- logo  搜索框   --> */
+
+// #search{
+//     width: 1200px;
+//     height: 100px;
+//     margin: 0 auto;
+//     /* background: pink; */
+// }
+// .logo{
+//     width: 362px;
+//     height: 77px;
+//     /* border: 1px solid #000; */
+//     float: left;
+// }
+
+// .sousuo{
+//     width: 566px;
+//     height: 39.5px;
+//     border: 2px solid #ff2832;
+//     float: left;
+//     margin-top: 20px;
+// }
+// .shuru{
+//     width: 390px;
+//     height: 20px;
+//     float: left;
+//     font-size: 12px;
+//     padding: 10px;
+//     border: none;
+//     outline: none;
+// }
+// .leixing-warp{
+//     width: 108px;
+//     height: 40px;
+//     // background: red;
+//     float: left;
+//     // display: none;
+// }
+// .leixing{
+//     width: 108px;
+//     height: 40px;
+//     // border: 1px solid #000;
+//     float: left;
+//     background: #f6f6f6;
+//     color: #969696;
+//     font-size: 16px;
+//     text-align: center;
+//     line-height: 40px;
+// }
+// .allfenlei{
+//     width: 106px;
+//     height: 288px;
+//     border: 1px solid #dedede;
+//     position: absolute;
+//     background: #fff;
+//     font-size: 12px;
+//     // margin-left: 410px;
+//     margin-top: 40px;
+//     display: none;
+//     overflow: auto;
+//     li{
+//         width: 84px;
+//         height: 24px;
+//         // background: red;
+//         // border: 1px solid #000;
+//         padding: 0 5px 0 15px;
+//         line-height: 24px;
+//         a{
+//             color: #646464;
+//         }
+//     }
+// }
+// .leixing-warp:hover .allfenlei{
+//     // background: #000;
+//     display: block;
+//     z-index: 99;
+// }
+// .allfenlei li:hover{
+//     background: #c8c8c8;
+//     text-decoration: underline;
+// }
+// .allfenlei li:hover a{
+//     color: #fff;
+// }
+// .btn{
+//     width: 48px;
+//     height: 40px;
+//     float: right;
+//     border: none;
+//     background: #ff2832;
+// }
+// .btn b{
+//     line-height: 40px;
+//     color: #fff;
+//     margin-left: 15px;
+// }
+// .gouwuche{
+//     width: 111px;
+//     height: 34px;
+//     border: 3px solid #ff2832;
+//     background: #ff2832;
+//     float: right;
+//     color: #fff;
+//     text-align: center;
+//     line-height: 34px;
+//     /* font-weight: 600; */
+//     margin-top: 20px;
+// }
+// .gouwuche:hover{
+//     background: #f6f6f6;
+//     color: #ff2832;
+//     border: 3px solid #ddd;
+// }
+// .dingdan{
+//     width: 88px;
+//     height: 34px;
+//     background: #f6f6f6;
+//     border: 3px solid #ddd;
+//     float: right;
+//     text-align: center;
+//     color: #646464;
+//     line-height: 34px;
+//     border-left: none;
+//     margin-top: 20px;
+//     /* position: absolute; */
+// }
+// .dingdan:hover{
+//     color: #ff2832;
+// }
+// .resou{
+//     width: 568px;
+//     height: 20px;
+//     /* border: 1px solid #000; */
+//     /* background: #000; */
+//     float: left;
+// }
+// .gaoji{
+//     width: 48px;
+//     height: 20px;
+//     font-size: 12px;
+//     float: right;
+//     color: #969696;
+//     line-height: 20px;
+// }
+// .gaoji:hover{
+//     color: #ff2832;
+//     text-decoration: underline;
+// }
+// .rs-nav{
+//     display: flex;
+//     float: left;
+//     font-size: 12px;
+//     color: #969696;
+// }
+// .rs-nav li{
+//     margin-right: 15px;
+// }
+// .rs-nav a{
+//     color: #969696;
+
+// }
+// .rs-nav a:hover{
+//     color: #ff2832;
+//     text-decoration: underline;
+// }
+
+
+// /* <!--  商品分类   --> */
+
+// #category{
+//     width: 1200px;
+//     height: 43px;
+//     /* background: yellow; */
+//     margin: 0  auto;
+// }
+// .shangpin{
+//     color: #fff;
+// }
+// .categoryall{
+//     display: block;
+//     width: 200px;
+//     height: 40px;
+//     background: #ff2832;
+//     text-align: center;
+//     line-height: 40px;
+//     float: left;
+//     color: #fff;
+//     font-weight: 600;
+//     /* border: 1px solid#000; */
+//     margin-top: 2px;
+// }
+// .categoryall i{
+//     margin-left: 30px;
+// }
+
+
+// .all-one{
+//     position: absolute;
+//     width: 180px;
+//     height: 515px;
+//     background: #fafafa;
+//     top: 177px;
+//     left: 160px;
+//     padding-left: 20px;
+//     /* padding: 10px; */
+//     display: none;
+//     border-top: 3px solid #ff2832;
+// }
+// .all-one li{
+//     width: 200px;
+//     height: 32px;
+//     text-align: left;
+//     font-weight: 500;
+//     color: #323232;
+// }
+// .all-one li a{
+//     color: #323232;
+//     font-size: 14px;
+// }
+
+// .categoryall:hover .all-one{
+//     display:block;
+// }
+
+
+// .cate{
+//     float: left;
+//     margin-left: 10px;
+// }
+// .cate li{
+//     float: left;
+//     text-align: center;
+//     line-height: 40px;
+//     margin: 0 15px ;
+//     font-weight: 600;
+//     font-size: 14px;
+// }
+// .cate li a{
+//     color: #323232;
+// }
+// .cate li:hover a{
+//     color: #ff2832;
+// }
+
+// /* <!--  水平线   --> */
+// #xian{
+//     width: 100%; 
+//     height: 2px;
+//     /* border: 1px solid #ff2832; */
+//     background: #ff2832;
+//     /* display: block;*/
+//     /* z-index: -1;  */
+//     /* border: 1px solid #ff2832; */
+// }
+
+// /* <!-- 小标题  --> */
+// #sub{
+//     width: 1200px;
+//     height: 31px;
+//     /* background: blue; */
+//     margin: 0 auto;
+// }
+
+// #sub-warp{
+//     width: 100%;
+//     height: 31px;
+//     background: #f5f5f5;
+//     /* border: 1px solid #000; */
+// }
+// .sub-nav{
+//     float: left;
+// }
+// .sub-nav li{
+//     float: left;
+//     font-size: 12px;
+//     padding: 0 14px;
+//     height: 12px;
+//     border-right: 1px solid #ccc;
+//     /* line-height: 31px; */
+//     margin-top: 8px;
+// }
+// .sub-nav li a{
+//     color: #646464;
+// }
+// .sub-nav li:hover a{
+//     color: #ff2832;
+//     text-decoration: underline;
+// }
+
+
+
+
+// main{
+//     width: 100%;
+//     height: 820px;
+//     .list{
+//         width: 1200px;
+//         min-height: 800px;
+//         margin: 0 auto;
+//         // background: red;
+//         // border: 1px solid #000;
+//         // float: left;
+//         li{ 
+//             // background: green;
+//             border: 1px solid #eee;
+//             float: left;
+//             width: 238px;
+//             height: 380px;
+//             margin-top: 10px;
+//             p{
+//                 margin-top: 10px;
+//                 margin-left: 10px;
+//             }
+//             img{
+//                 width: 238px;
+//                 height: 238px;
+//             }
+//             .desc{
+//                 font-size: 12px;
+//             }
+
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// footer{
+//     width: 100%;
+//     height: 420px;
+//     // background: #ff0;
+//     margin-top: 15px;
+//     border-top: 2px solid #ff2832;
+//     .new-warp{
+//         width: 100%;
+//         height: 78px;
+//         background: #fafafa;
+//         border-bottom: 1px solid #ebebeb;
+//         .new{
+//             width: 970px;
+//             height: 78px;
+//             // background: #000;
+//             margin: 0 auto;
+//             .tu1{
+//                 width: 138px;
+//                 height: 52px;
+//                 margin: 7px 50px 7px 48px;
+//                 // background: url(../img/footer_bg.png) no-repeat;
+//                 float: left;
+//                 overflow: hidden;
+//             }
+//             .tu2{
+//                 width: 138px;
+//                 height: 52px;
+//                 margin: 7px 0px 7px 78px;
+//                 // background: url(../img/footer_bg.png) no-repeat;
+//                 float: left;
+//                 overflow: hidden;
+//                 img{
+//                     margin-top: -51px;
+//                 }
+//             }
+//             .tu3{
+//                 width: 138px;
+//                 height: 52px;
+//                 margin: 7px 0px 7px 78px;
+//                 // background: url(../img/footer_bg.png) no-repeat;
+//                 float: left;
+//                 overflow: hidden;
+//                 img{
+//                     margin-top: -103px;
+//                 }
+//             }
+//             .tu4{
+//                 width: 138px;
+//                 height: 52px;
+//                 margin: 7px 0px 7px 78px;
+//                 // background: url(../img/footer_bg.png) no-repeat;
+//                 float: left;
+//                 overflow: hidden;
+//                 img{
+//                     margin-top: -155px;
+//                 }
+//             }
+//         }
+//     }
+//     .footer-new{
+//         width: 920px;
+//         height: 140px;
+//         margin: 0 auto;
+//         padding-top: 30px;
+//         // background: #ff2832;
+//         .zhinan{
+//             width: 153px;
+//             height: 116px;
+//             // background: pink;
+//             float: left;
+//             span{
+//                 padding-left: 30px;
+//                 font-size: 14px;
+//                 font-family: "microsoft yahei";
+//                 color: #323232;
+//                 height: 36px;
+//                 line-height: 36px;
+//             }
+//             ul{
+//                 padding-left: 32px;
+//                 margin: 0;
+//                 li{
+//                     line-height: 20px;
+//                     height: 20px;
+//                     a{
+//                         font-size: 12px;
+//                         color: #7d7d7d;
+//                     }
+//                     a:hover{
+//                         color: #ff2832;
+//                         text-decoration: underline;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     .footer-copy{
+//         width: 100%;
+//         height: 110px;
+//         // background: pink;
+//         margin: 0 auto;
+//         border-top: 1px solid #ebebeb;
+//         padding:17px 0 50px ;
+//         .footer-nav{
+//             width: 100%;
+//             height: 37px;
+//             // background: #bbb;
+//             margin: 0 auto;
+//             padding-bottom: 17px;
+//             text-align: center;
+//             font-size: 12px;
+//             a{
+//                 color: #8c8c8c;
+//             }
+//             span{
+//                 color: #8c8c8c;
+//                 margin: 0 17px 0 19px;
+//             }
+//             a:hover{
+//                 color: #ff2832;
+//                 text-decoration: underline;
+//             }
+//         }
+//         .footer-copyright{
+//             width: 830px;
+//             height: 54px;
+//             // background: #ff2832;
+//             margin: 0 auto;
+//             font-size: 12px;
+//             color: #8c8c8c;
+//             text-align: center;
+//             padding: 10px 0 0 130px;
+//             line-height: 70px;
+
+//             span{
+//                 float: left;
+//                 bottom: 0;
+//             }
+//             .sep{
+//                 margin: 0 17px 0 19px;
+//             }
+//             a{
+//                 float: left;
+//                 margin: -5px 5px 0 5px;
+//             }
+//         }
+//     }
+// }
