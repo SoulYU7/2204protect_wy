@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>购物车</title>
-    <link rel="stylesheet" href="css/shopping.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="fonts/iconfont.css">
 </head>
 
@@ -195,22 +196,115 @@
 
 
     <main>
-        <div class="gounav">
-            <input type="checkbox" id="checkAll">
-            <span class="qx">全选</span>
-            <span class="gname">名称</span>
-            <span class="gimg">图片</span>
-            <span class="gprice">单价</span>
-            <span class="gnum">数量</span>
-            <span class="gnprices">单个总价</span>
+        <div class="py-container">
+        <div class="w">
+            <div class="allgoods">
+                <h4>全部商品
+                    <span>11</span>
+                </h4>
+                <div class="cart-main">
+                    <div class="cart-th clearfix">
+                        <div>
+                            <input type="checkbox">全选</div>
+                        <div class="">商品</div>
+                        <div class="">单价（元）</div>
+                        <div class="">数量</div>
+                        <div class="">小计（元）</div>
+                        <div class="">操作</div>
+                    </div>
+                    <div class="cart-title clearfix">
+                        <h5 class="fl">京东自营</h5>
+                        <div class="yunfei fr">
+                            运费:￥6.00
+                            <span>还差￥99.00免运费</span>
+                        </div>
+                    </div>
+                    <div class="cart-item-list">
+                        <div class="cart-body">
+                            <div class="cart-list">
+
+
+                                 <!-- <ul class="goods-list yui3-g">
+                                    <li class="yui3-u-3-8 pr">
+                                        <input type="checkbox" class="good-checkbox">
+                                        <div class="good-item">
+                                            <div class="item-img">
+                                                <img src="uploads/mobile.png">
+                                            </div>
+                                            <div class="item-msg">Apple Macbook Air 13.3英寸笔记本电脑 银色（Corei5）处理器/8GB内存</div>
+                                        </div>
+                                    </li>
+                                    <li class="yui3-u-1-8">
+                                        <span>颜色: 银色</span>
+                                        <br>
+                                        <span>处理器: Core I5</span>
+                                        <br>
+                                        <span>内存: 8GB</span>
+                                        <br>
+                                        <span>尺寸: 13.3英寸</span>
+                                        <br>
+                                    </li>
+                                    <li class="yui3-u-1-8">
+                                        <span class="price">8848.00</span>
+                                    </li>
+                                    <li class="yui3-u-1-8">
+                                        <div class="clearfix">
+                                            <a href="javascript:;" class="increment mins">-</a>
+                                            <input autocomplete="off" type="text" value="1" minnum="1" class="itxt">
+                                            <a href="javascript:;" class="increment plus">+</a>
+                                        </div>
+                                        <div class="youhuo">有货</div>
+                                    </li>
+                                    <li class="yui3-u-1-8">
+                                        <span class="sum">8848.00</span>
+                                    </li>
+                                    <li class="yui3-u-1-8">
+                                        <div class="del1">
+                                            <a href="javascript:;">删除</a>
+                                        </div>
+                                        <div>移到我的关注</div>
+                                    </li>
+                                </ul> -->
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-tool clearfix">
+                    <div class="money-box">
+                        <div class="sumprice">
+                            <div class="sumprice-top">
+                                <span>
+                                    已选择
+                                    <strong>0</strong> 件商品
+                                </span>
+                               
+                                <span>
+                                    <span class="total_price">
+                                        总价（不含运费）：
+                                    </span>
+                                    <i class="summoney">￥
+                                        <span>0.00</span>
+                                    </i>
+                                </span>
+                                    
+                            </div>
+                            <div class="sumprice-bottom">
+                                已节省:￥20.00
+                            </div>
+                        </div>
+                        <div class="sumbtn">
+                            <a class="sum-btn" href="pay.html">结算</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul id="cartList">
-        </ul>
-        <div class="buju">
-            结算：<span id="totalPrice">0</span>
-            <br>
-            <a href="list.html">继续购买</a>
-        </div>
+    </div>
     </main>
 
 
@@ -309,6 +403,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="./lib/jquery-2.2.4.js"></script>
+    <script src="./lib/layer/layer.js"></script>
+    <script src="./js/axios.min.js"></script>
+    <script src="./js/cart.js"></script>
 
 </body>
 

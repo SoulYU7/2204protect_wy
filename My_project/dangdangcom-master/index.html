@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>当当网图书_小说传记_青春文学_成功励志_投资理财_各品类图书畅销榜</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="fonts/iconfont.css">
-    <link rel="stylesheet" href="css/lunbotu.css">
-    <!-- <link rel="stylesheet" href="font/iconfonts.css"> -->
+    <link rel="stylesheet" href="css/swiper.css">
 </head>
 
 <body>
@@ -151,7 +151,7 @@
                 <a href="" class="btn"><b class="iconfont icon-magnifier"></b></a>
             </div>
             <div class="dingdan">我的订单</div>
-            <a href="shopping.html" class="gouwuche"><i class="iconfont icon-shouye "></i> 购物车 0</a>
+            <a href="cart.html" class="gouwuche"><i class="iconfont icon-shouye "></i> 购物车 0</a>
             <div class="resou">
                 <ul class="rs-nav">
                     <li>热搜:</li>
@@ -169,7 +169,7 @@
             <div class="categoryall">
                 <a href="" class="shangpin">全部商品分类<i class="iconfont icon-xiangxia-01"></i></a>
                 <ul class="all-one">
-                    <li><a href="">图书</a>、<a href="">童书</a></li>
+                    <li><a href="./list.html">图书</a>、<a href="">童书</a></li>
                     <li><a href="">电子书</a>、<a href="">网络文学</a></li>
                     <li><a href="">创意文具</a>、<a href="">拍卖</a></li>
                     <li><a href="">服饰</a>、<a href="">内衣</a></li>
@@ -188,7 +188,7 @@
                 </ul>
             </div>
             <ul class="cate">
-                <li><a href="">图书</a></li>
+                <li><a href="./list.html">图书</a></li>
                 <li><a href="">电子书</a></li>
                 <li><a href="">网络文学</a></li>
                 <li><a href="">服装</a></li>
@@ -399,26 +399,59 @@
                 </ul>
             </div>
             <div class="main-center">
-                <div class="lunbo">
+                
                     <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-                            <div class="swiper-slide" style="background-image:url(img/6.jpg)"></div>
+                        <!-- <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(img/1.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(img/2.jpg)"></div>
                             <div class="swiper-slide" style="background-image:url(img/3.jpg)"></div>
-                            <div class="swiper-slide" style="background-image:url(img/7.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
                             <div class="swiper-slide" style="background-image:url(img/5.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(img/6.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(img/7.jpg)"></div>
                             <div class="swiper-slide" style="background-image:url(img/8.jpg)"></div>
                             <div class="swiper-slide" style="background-image:url(img/9.jpg)"></div>
-                            <div class="swiper-slide" style="background-image:url(img/2.jpg)"></div>
-                            <div class="swiper-slide" style="background-image:url(img/1.jpg)"></div>
-                        </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination swiper-pagination-white"></div>
+                        </div> -->
+                        <!-- <div class="swiper-pagination swiper-pagination-white"></div> -->
                         <!-- Add Arrows -->
                         <!-- <div class="swiper-button-next swiper-button-white"></div>
                         <div class="swiper-button-prev swiper-button-white"></div> -->
+
+                        <ul class="swiper_li">
+                            <li class="swiper_img">
+                                <img src="img/1.jpg" />
+                              </a>
+                            </li>
+                            <li>
+                                <img src="img/2.jpg" />
+                              </a>
+                            </li>
+                            <li>
+                                <img src="img/3.jpg" />
+                              </a>
+                            </li>
+                            <li>
+                                <img src="img/4.jpg" />
+                              </a>
+                            </li>
+                            <li>
+                                <img src="img/5.jpg" />
+                              </a>
+                            </li>
+                          </ul>
+                          <ol>
+                            <li class="swiper_img">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                          </ol>
+                          <a href="javascript:;" id="goPrev">&#139;</a>
+                          <a href="javascript:;" id="goNext">&#155;</a>
+
+
                     </div>
-                </div>
+               
                 <div class="xinshu">
                     <div class="shangjia"></div>
                     <div class="banner">
@@ -3359,6 +3392,9 @@
                 </ul>
             </div>
         </div>
+
+
+        
         <div class="main-three">
             <div class="guangtu">
                 <a href="" style="margin-right: 27px;"><img src="img/382x140-1606984037.jpg" alt=""></a>
@@ -6080,6 +6116,8 @@
         <a href="" class="diaoyan">新版调研</a>
         <p class="huiding"></p>
     </div>
+
+    <script src="./js/swiper.js"></script>
 </body>
 
 </html>

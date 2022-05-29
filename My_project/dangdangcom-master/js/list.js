@@ -108,7 +108,7 @@ class List {
                 , content: '去购物车结算'
                 , btn: ['NO' , 'YES']
                 , btn2: function (index , layero){//按钮2执行函数
-                    location.assign('./shopping.html')//跳转购物车页面
+                    location.assign('./cart.html')//跳转购物车页面
                 }
                 , time: 2000 //2秒后自动消失
             })
