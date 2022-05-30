@@ -36,10 +36,6 @@ fieldset {
     border: 0
 }
 
-img {
-    display: block
-}
-
 a {
     text-decoration: none
 }
@@ -62,7 +58,7 @@ html {
 
 header {
     width: 100%;
-    height: 210px
+    height: 170px
 }
 
 #top-warp {
@@ -92,11 +88,11 @@ header {
     position: absolute
 }
 
-em {
+/* em {
     display: block;
     float: right;
-    margin-right: 10px
-}
+    margin-right: 10px;
+} */
 
 .city:hover {
     background: #fff;
@@ -781,11 +777,12 @@ main .anniu {
 
 .de_container {
     padding-top: 20px;
-    border-top: 2px solid #e01222;
+    /* border-top: 2px solid #e01222; */
     background-color: #fff;
 }
 .crumb_wrap {
-    height: 25px;
+    height: 0px;
+    font-size: 14px;
 }
 .crumb_wrap a {
     margin-right: 10px;
@@ -981,12 +978,13 @@ main .anniu {
 }
 .choose_amount input {
     width: 48px;
-    height: 45px;
+    height: 43px;
     text-align: center;
-    border-right: 1px solid #ccc;
+    border: 1px solid gainsboro;
 }
 .add, 
 .reduce {
+    color: #999;
     position: absolute;
     right: 0;
     width: 15px;
@@ -996,6 +994,7 @@ main .anniu {
     line-height: 22px;  
 }
 .add {
+    
     top: 0;
     border-bottom: 1px solid #ccc;
 }
