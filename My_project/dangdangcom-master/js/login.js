@@ -34,6 +34,7 @@ class Login{
                 'Content-Type': 'application/x-www-form-urlencoded'
             }
         }).then(res=>{
+            console.log(res);
             //根据返回数据判断登路状态将用户信息保存
             if(res.status == 200 && res.data.code == 1){
                 //将token和用户id保存到local

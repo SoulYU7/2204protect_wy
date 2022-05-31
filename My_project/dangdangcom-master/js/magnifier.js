@@ -19,6 +19,8 @@ class Utils{
      }
  
      init(){
+         let enwrap = this.$('.product_intro');//获取需要添加标签的最外层标签节点
+        //  console.log(enwrap);
          //放大镜最外层父节点标签
          this.zoom=Utils.ce("div",{
              position:'absolute',
@@ -31,7 +33,7 @@ class Utils{
          this.createMin(this.zoom);
          this.createMax(this.zoom);
          this.createCarousel(this.zoom);
-         document.body.appendChild(this.zoom);//
+         enwrap.appendChild(this.zoom);//
      }
      //创建放大镜主图(小)
      createMin(parent){
@@ -53,7 +55,7 @@ class Utils{
          })
          this.min.appendChild(this.mask); 
          parent.appendChild(this.min);
-         console.log(this.min);
+        //  console.log(this.min);
          this.min.addEventListener("mouseenter",this.mouseHandler.bind(this));
      }
  
@@ -183,14 +185,14 @@ class Utils{
              this.mask.style.left=this.x+"px";//小方块跟随鼠标位置,鼠标位置保持中间
              this.mask.style.top=this.y+"px";
              this.max.style.backgroundPositionX=-this.x*(this.MAX_WIDTH/this.MASK_WIDTH)+"px";//放大图背景图坐标随着鼠标方块移动位置随着改变
-             this.max.style.backgroundPositionY=-this.y*(this.MAX_WIDTH/this.MASK_WIDTH)+"px";//方块移动距离<方块距离小图边框的距离>*大图与方块宽度的比例
+             this.max.style.backgroundPositionY=-this.y*(this.MAX_WIDTH/this.MASK_WIDTH)+"px";//方块移动距离<方块距离小图边框的距离>*大图宽度与方块宽度的比例=大图底背景需要挪动的距离
      }
  
  
      clickHandler(e){
          let index=this.bnList.indexOf(e.target)
-         console.log(index);//判断点击的是左还是右按钮
-        //  if(index<0) return
+        //  console.log(index);//判断点击的是左还是右按钮//还是div中的其他<其他点击返回-1>
+         if(index<0) return //点击其他元素是不执行
          if(index===0){//点击左按钮left为0
             this.imgCon.style.left="0px";
          }else{

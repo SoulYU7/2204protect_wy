@@ -28,6 +28,7 @@
 }
 
 .swiper-container ol li {
+  border-radius: 50%;
   width: 20px;
   height: 20px;
   background: #fff;

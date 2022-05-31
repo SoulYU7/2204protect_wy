@@ -709,7 +709,7 @@ main .guanggao {
 
 main .main-one {
     width: 1200px;
-    height: 960px;
+    height: 925px;
     margin: 0 auto
 }
 
@@ -1110,14 +1110,14 @@ main .main-one .main-center .xinshu {
 
 main .main-one .main-center .xinshu .shangjia {
     width: 750px;
-    height: 43px;
+    height: 70px;
     background: url(../img/new_book.png) no-repeat
 }
 
 main .main-one .main-center .xinshu .banner {
     width: 750px;
     height: 522px;
-    margin-top: 25px;
+    margin-top: 20px;
     position: relative;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -1253,28 +1253,29 @@ main .main-one .main-right .yushou {
     width: 238px;
     height: 185px;
     border: 1px solid #eaeaea;
-    padding: 6px 0 0;
+    
     margin-bottom: 9px
 }
 
 main .main-one .main-right .yushou .biaoti {
     width: 218px;
-    height: 25px;
+    height: 32px;
     float: left;
     padding: 0 10px;
-    margin-bottom: 10px
+
 }
 
 main .main-one .main-right .yushou .biaoti span {
     width: 218px;
     height: 28px;
-    font-size: 16px;
-    font-weight: 600
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
 }
 
 main .main-one .main-right .yushou .biaoti a {
     float: right;
-    color: #5097bc;
+    color: white;
     font-size: 12px;
     line-height: 30px
 }
@@ -1299,7 +1300,7 @@ main .main-one .main-right .yushou .yushou-banner .swiper-container1 {
     width: 100%;
     height: 100%;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 main .main-one .main-right .yushou .yushou-banner .swiper-container1 .swiper-slide {
@@ -1537,6 +1538,20 @@ main .main-one .main-right .remai .remai-nav .paihangbang .tonghsu .fenbang li:h
 main .main-one .main-right .remai .remai-nav .paihangbang .tonghsu .fenbang li:hover .youtu {
     display: block
 }
+
+
+
+
+.main-moveImg{
+    /* height: 250px; */
+    margin: 0 auto;
+}
+
+
+
+
+
+
 
 main .main-tuo {
     width: 1200px;
@@ -3666,4 +3681,112 @@ footer .footer-copy .footer-copyright a {
     position: absolute;
     top: 10px;
     right: 170px
+}
+
+
+
+
+
+
+
+.swipper {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.swipper ul {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+
+.swipper li {
+    list-style: none;
+    width: 150px;
+    height: 100%;
+    flex-shrink: 0;/*防止图片被压缩*/
+    position: relative;
+    transition: all 0.6s;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.swipper li:hover {
+    z-index: 1;
+    transform: scale(1.2);
+}
+
+.swipper img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;/*保持原有尺寸比例。但部分内容可能被剪切。*/
+    box-sizing: border-box;
+}
+.run_title {
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+    background: url(../img/new_book.png) no-repeat
+}
+.run_title a {
+    color:aqua;
+    font-size: 18px;
+    margin-left: 750px;
+}
+
+
+.clock {
+    width: 238px;
+    height: 150px;
+}
+
+.clock {
+    font-size: 20px;
+    color: white;
+    background: url(../img/m-skill.png);
+    background-size: 238px 150px;
+}
+.clock_span strong {
+    font-size: 20px;
+}
+.clock_span {
+    width: 238px;
+    height: 150px;
+    text-align: center;
+    line-height: 70px;
+}
+ .timer {
+    width: 140px;
+    height: 60px;
+    margin-top: 10px;
+    margin: -5px auto 0;
+    overflow: hidden;
+}
+.timer span {
+    display: inline-block;
+    background-color: #2f3430;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 16px;
+    font-size: 20px;
+    position: relative;
+}
+
+.timer span::after {
+    content: ":";
+    position: absolute;
+    right: -20px;
+    top: -2px;
+    width: 20px;
+    height: 100%;
+    font-weight: bolder;
+} 
+.timer span:last-child {
+    margin-right: 0;
 }
