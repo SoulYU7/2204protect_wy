@@ -6,7 +6,7 @@ class Clock {
         this.m;
         this.s;
         this.getNode();
-        this.endTime = '2022-6-1 09:00:00';
+        this.endTime = '2022-6-3 09:00:00';
         // this.mySetTime(this.endTime);
         this.writeIn();
     }
@@ -27,7 +27,7 @@ class Clock {
         let start = new Date();
         // 结束事件是设定时间
         let end = new Date(endTime);
-        console.log(end.getTime());
+
         this.strong.innerHTML = parseInt((end.getTime())/1000/60/60%24);
         // 获取计算时间差
         // (结束时间戳 - 起始时间戳) / 1000 取整  随便上下四舍五入都可以
